@@ -12,6 +12,6 @@ filters:
   tag:Name: frontend
   instance-state-name : running
 keyed_groups:
-  - key: tag.Name
+  - key: tags.Name
     separator: ""
 
