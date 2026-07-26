@@ -7,3 +7,9 @@ hostnames:
 # This option allows displaying the public ip addresses.
   #- ip-address
   - private-ip-address
+
+filters:
+  tag:Name: frontend
+  instance-state-name : running
+
+
